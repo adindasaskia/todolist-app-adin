@@ -22,4 +22,5 @@ formElement.addEventListener('submit',(event) => {
 
     //Menghapus input value setelah submit
     inputElement.value = '';
+    
 });
