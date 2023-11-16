@@ -17,10 +17,10 @@ formElement.addEventListener('submit',(event) => {
     todoItem.innerHTML = inputElement.value;
 
     //Menambahkan todo item ke dalam wrapper todo
-    // wrapperTodoElement.innerHTML = todoItem;
+    // wrapperTodoElezment.innerHTML = todoItem;
     wrapperTodoElement.append(todoItem);
 
     //Menghapus input value setelah submit
     inputElement.value = '';
-    
+
 });
